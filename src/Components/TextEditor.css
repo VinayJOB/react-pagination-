@@ -1,0 +1,5 @@
+.ql-editor {
+  min-height: 300px !important;
+  overflow-y: auto !important;
+  background-color: #1f1f1f;
+}

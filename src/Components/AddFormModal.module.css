@@ -1,0 +1,74 @@
+.form {
+  background-color: #111111;
+  padding: 2rem 2rem 2rem 2rem;
+  color: white;
+}
+.input1 {
+  color: white;
+  margin-bottom: 1rem;
+  background-color: #1f1f1f;
+  margin: auto;
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 4px;
+}
+.Uploadbutton {
+  background-color: rgb(34, 147, 199);
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 7px 14px;
+  transition-duration: 0.4s;
+  border: none;
+}
+
+.Uploadbutton:hover {
+  background-color: rgb(113, 11, 185);
+}
+.inputBox {
+  width: 100%;
+  text-align: center;
+}
+.closebutton {
+  background-color: rgb(34, 147, 199);
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 7px 14px;
+  transition-duration: 0.4s;
+  border: none;
+  margin: 40px;
+}
+.closebutton:hover {
+  background-color: rgb(113, 11, 185);
+}
+.textArea {
+  width: 100%;
+  overflow-y: auto;
+  background-color: #373737;
+  color: white;
+  resize: none;
+  outline: none;
+  border-radius: 5px;
+}
+/* custom Scrollbar */
+.textArea::-webkit-scrollbar {
+  width: 5px;
+}
+.textArea::-webkit-scrollbar-track {
+  background-color: var(--white);
+}
+.textArea::-webkit-scrollbar-thumb {
+  background-color: #aaabad;
+}
+.texteditor {
+  border-radius: 10px;
+  width: 50% !important;
+}
+.textEditor {
+  overflow-y: auto;
+}
